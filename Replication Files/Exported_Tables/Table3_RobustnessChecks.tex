@@ -1,0 +1,56 @@
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Mon, Jun 01, 2026 - 14:57:33
+\begin{table}[!htbp] \centering 
+  \caption{Robustness Checks: LPM, Territorial Subsample, Restricted Index, Equal Weights} 
+  \label{tab:results_robust} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{Conflict Recurrence} \\ 
+\\[-1.8ex] & \textit{OLS} & \multicolumn{3}{c}{\textit{logistic}} \\ 
+ & LPM & Terr. Sub. & Restricted & Equal Weights \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Inclusivity\_c & $-$0.020 & $-$0.255 &  &  \\ 
+  & (0.083) & (0.600) &  &  \\ 
+  & & & & \\ 
+ I(Inclusivity\_c$\hat{\mkern6mu}$2) & $-$0.011 & $-$0.501 &  &  \\ 
+  & (0.065) & (0.844) &  &  \\ 
+  & & & & \\ 
+ Inclusivity\_Restricted\_c &  &  & $-$0.319 &  \\ 
+  &  &  & (0.589) &  \\ 
+  & & & & \\ 
+ I(Inclusivity\_Restricted\_c$\hat{\mkern6mu}$2) &  &  & $-$0.179 &  \\ 
+  &  &  & (0.629) &  \\ 
+  & & & & \\ 
+ Inclusivity\_Equal\_c &  &  &  & $-$0.171 \\ 
+  &  &  &  & (0.562) \\ 
+  & & & & \\ 
+ I(Inclusivity\_Equal\_c$\hat{\mkern6mu}$2) &  &  &  & $-$0.278 \\ 
+  &  &  &  & (0.787) \\ 
+  & & & & \\ 
+ Conflict\_Duration & 0.013$^{*}$ & 0.068$^{*}$ & 0.069$^{*}$ & 0.071$^{*}$ \\ 
+  & (0.005) & (0.034) & (0.034) & (0.034) \\ 
+  & & & & \\ 
+ Incompatibility2 & 0.347 &  & 19.272 & 18.985 \\ 
+  & (0.179) &  & (2,773.878) & (2,797.787) \\ 
+  & & & & \\ 
+ Constant & 0.249$^{*}$ & $-$1.010 & $-$1.219 & $-$1.154 \\ 
+  & (0.112) & (0.781) & (0.762) & (0.768) \\ 
+  & & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 44 & 31 & 44 & 44 \\ 
+R$^{2}$ & 0.399 &  &  &  \\ 
+Adjusted R$^{2}$ & 0.338 &  &  &  \\ 
+Log Likelihood &  & $-$17.972 & $-$18.024 & $-$18.104 \\ 
+Akaike Inf. Crit. &  & 43.944 & 46.048 & 46.208 \\ 
+Residual Std. Error & 0.405 (df = 39) &  &  &  \\ 
+F Statistic & 6.484$^{***}$ (df = 4; 39) &  &  &  \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p $<$ .05; $^{**}$p $<$ .01; $^{***}$p $<$ .001. Two-tailed tests. All inclusivity terms mean-centred.} \\ 
+\end{tabular} 
+\end{table} 
